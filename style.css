@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  color:#222;
+}
+
+.container {
+  max-width: 100%;
+
+  padding: 0px;
+  box-sizing: border-box;
+}
+.containers {
+  max-width: 100%;
+
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.columns {
+  padding: 20px;
+}
+
+.big-image {
+  flex: 60%;
+}
+
+.big-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  
+}
+
+.small-images {
+  flex: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.small-images img {
+  width: 80%;
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .column {
+    flex: 100%;
+  }
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0px
+}
+
+.column {
+  flex: 1;
+  padding: 0px;
+  height: 750px;
+  box-sizing: border-box;
+  
+}
+.column2 {
+  flex: 1;
+  padding: 0px;
+  height: 450px;
+  box-sizing: border-box;
+  
+}
+.textColoumn {
+  flex: 1;
+  padding: 0px;
+  height: 550px;
+  box-sizing: border-box;
+  
+}
+.textColoumn2 {
+  flex: 1;
+  padding: 0px;
+  height: 550px;
+  box-sizing: border-box;
+  
+}
+
+.text {
+  background-color: #ffffff;
+}
+.image{
+  height: 750px;
+  border-top-left-radius: 480px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 768px) {
+  .column {
+    flex: 100%;
+    height: 100%;
+    margin:10px;
+  }
+  .column2 {
+    flex: 100%;
+    height: 100%;
+    margin:10px;
+  }
+ .image{
+  border-top-left-radius: 0px;
+  height: 100%;
+ }
+ .textColoumn {
+  flex: 1;
+  padding: 0px;
+  height: 100%;
+  box-sizing: border-box;
+  
+}
+.textColoumn2 {
+  flex: 1;
+  padding: 0px;
+  height: 100%;
+  box-sizing: border-box;
+  
+}
+
+.size1-text-2 {
+  font-size: 34px;
+  line-height: 42px;
+}
+.contain {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+
+}
+
+.text-overlay {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7); /* optional: add background color for better readability */
+   /* optional: add padding for better readability */
+}
+}
+
+@media (min-width: 768px) 
+{
+  .contains {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .imag{
+  height: 450px;
+}
+}
+.size5-text-2 {
+  font-size: 24px; /* adjust font size as needed */
+  font-weight: bold; /* adjust font weight as needed */
+}
+
+.div-block-22 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.size1-text-2 {
+  color: var(--black);
+  text-transform: uppercase;
+  white-space: normal;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 5em;
+  font-weight: 900;
+  line-height: 1;
+}
+.text-span {
+  color: #00500c;
+}
+.paragraph-72 {
+  opacity: .7;
+  color: #363636;
+  margin-bottom: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 1.3;
+} .div-block-7 {
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}  .heading-3 {
+  font-size: 2.4em;
+}
+.paragraph-2 {
+  opacity: .7;
+  color: var(--dark-slate-grey);
+  margin-top: 0;
+  margin-bottom: 40px;
+  padding-right: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 1.3em;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.heading-3 {
+  width: 100%;
+  color: var(--black);
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
+  font-size: 4em;
+  line-height: 1;
+}
+.navbar{
+  padding: .8rem;
+}
+.navbar-brand img{
+  width: 150px;
+  height: 70px;
+}
+.navbar-nav li{
+  padding-right: 20px;
+}
+.nav-link{
+  font-size: 1.1em !important;
+}
+.carousel-inner img{
+  width: 100%;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+.btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #564d7c;
+}
+.btn-primary:hover {
+  background-color: #563d7c;
+  border: 1px solid #563d7c;
+}
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+}
+.padding {
+  padding-bottom: 2rem;
+} 
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+.fa-code {
+  color: #e54d26;
+}
+.fa-bold {
+  color: #563d7c;
+}
+.fa-css3 {
+  color: #2a63af;
+}
+.fa-code, .fa-bold, .fa-css3 {
+  font-size: 4em;
+  margin: 1rem;
+}
+.fun{
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.gif {
+  max-width: 100%;
+}
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-google-plus-g {
+  color: #dd4b39;
+}
+.fa-instagram {
+  color: #517fa8;
+}
+.fa-youtube {
+  color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+footer a {
+  color: #d5d5d5;
+}
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+.footer-image img{
+  width: 150px;
+  height: 60px;
+}
+
+
+/*---Media Queries --*/
+@media (max-width: 1500px){
+  .carousel-inner img{
+    width: 100%;
+    height: 550px;
+  }
+}
+
+@media (max-width: 992px) {
+  .social a{
+    font-size: 4em;
+    padding: 2rem;
+  }
+  .carousel-inner img{
+    width: 100%;
+    height: 400px;
+  }
+  }
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 45%;
+  }
+  .carousel-caption h1 {
+    font-size: 350%;
+  }
+  .carousel-caption h3 {
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: 0.2rem;
+  }
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+  .display-4 {
+    font-size: 200%;
+  } 
+  .display-4 {
+    font-size: 200%;
+  }
+  .social a{
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+  .carousel-inner img{
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 576px) {
+  carousel-caption {
+    top: 40%;
+  }
+  .carousel-caption h1 {
+    font-size: 250%;
+  }
+  .carousel-caption h3 {
+    font-size: 110%;
+  }
+  .carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+  .carousel-indicators {
+    display: none;
+  }
+  .display-4 {
+    font-size: 160%;
+  }
+  .social a{
+    font-size: 2em;
+    padding: 1.7rem;
+  }
+  .carousel-inner img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+.slider-container {
+  position: relative;
+  max-width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+.image-container img {
+  height: 100%;
+  }
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  display: flex;
+}
+
+
+
+.btns {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+/* Add your existing CSS styles here */
+
+.image-container {
+  position: relative;
+  width: calc(25% - 10px);
+  margin: 5px;
+
+}
+
+.image-container:hover .description {
+  opacity: 1;
+}
+
+.description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  color:#00500c;
+  text-align: center;
+  padding: 5px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .image-container {
+    width: calc(50% - 10px);
+  }
+  .image-container img {
+    height: 80px;
+    width: 80px;
+    }
+    .divider{
+      margin: 10px;
+    }
+    
+}
+@media screen and (min-width: 768px) {
+  .modal-content{
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .image-container {
+    width: calc(100% - 10px);
+  }
+}
+
+
+
+.divider {
+  border: none;
+  border-top: 2px solid green;
+  margin: 10%;
+ 
+  
+}
+.hero {
+  position: relative;
+  height: 400px; /* Adjust height as needed */
+  background-image: url('https://media.istockphoto.com/id/1356179447/photo/closeup-agave-cactus-abstract-natural-pattern-background-and-textures.jpg?s=612x612&w=0&k=20&c=NSISt_yiNLXKSWCRhoNDVG4VmyZq5jULLw-w_GxfVRw='); /* Replace 'your-image.jpg' with your image URL */
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  background-color: #037114;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-content button:hover {
+  background-color: #00500c;
+}/* Add your existing CSS styles here */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 150px;
+ 
+
+  
+  overflow: auto;
+  background-color: #09831b45;
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+
+  max-height: 80%;
+}
+
+.close {
+  position: absolute;
+  top: 100px;
+  right: 35px;
+  color: #00500c;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
